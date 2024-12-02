@@ -1,0 +1,23 @@
+
+// Node -> type - Program 
+//      -> body - [Node]
+
+
+// Node -> type - FunctionaDeclaration 
+//      -> body -> Node
+//      -> id -> Node (Identifire)
+
+// Node -> type -> BlockStatement
+//      -> body -> [Node]
+
+// Node -> type - VariableDeclaration
+//      -> declarations -> [Node]
+
+// Node -> type - VariableDeclarator
+//      -> init -> Node
+
+// Node -> type - CallExpression
+//      -> callee - Node
+
+// Node -> type - 'Identifier'
+//      -> name
